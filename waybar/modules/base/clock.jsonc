@@ -1,0 +1,8 @@
+{
+  "clock": {
+    "timezone": "Europe/Paris",
+    "tooltip": false,
+    "format": "{:L%F %H:%M}",
+    "interval": 1
+  }
+}

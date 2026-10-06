@@ -1,0 +1,6 @@
+{
+  "custom/logo": {
+    "format": "     ",
+    "on-click": "~/.config/rofi/launcher/launcher.sh"
+  }
+}

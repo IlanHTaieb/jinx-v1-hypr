@@ -1,0 +1,16 @@
+/**
+ *
+ * Global Rofi configuration
+ *
+ * Look and feel live in each theme (launcher/style.rasi, powermenu/style.rasi).
+ * Only settings that differ from Rofi's defaults are kept here.
+ **/
+
+configuration {
+	/* Accent-insensitive search: "ecran" matches "écran" */
+	normalize-match: true;
+
+	run,drun {
+		fallback-icon: "application-x-addon";
+	}
+}

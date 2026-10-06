@@ -1,0 +1,59 @@
+[
+  {
+    "include": [
+      "~/.config/waybar/modules/base/bluetooth.jsonc",
+      "~/.config/waybar/modules/base/clock.jsonc",
+      "~/.config/waybar/modules/base/cpu.jsonc",
+      "~/.config/waybar/modules/base/network.jsonc",
+      "~/.config/waybar/modules/base/pulseaudio.jsonc",
+      "~/.config/waybar/modules/custom/logo.jsonc",
+      "~/.config/waybar/modules/custom/music.jsonc",
+      "~/.config/waybar/modules/hyprland/workspaces.jsonc"
+    ],
+
+    "output": "DP-1",
+    "layer": "top",
+    "position": "top",
+    "margin-top": 10,
+    "margin-left": 13,
+    "margin-right": 23,
+    "margin-bottom": -10,
+    "spacing" : 0,
+    "reload_style_on_change": true,
+
+    "modules-left": [
+      "custom/logo",
+      "hyprland/workspaces#DP-1",
+      "cpu"
+    ],
+
+    "modules-center": ["clock"],
+
+    "modules-right": [
+      "custom/music",
+      "bluetooth",
+      "network",
+      "pulseaudio",
+    ],
+  },
+
+  {
+    "include": [
+      "~/.config/waybar/modules/hyprland/workspaces.jsonc"
+    ],
+
+    "output": "DP-3",
+    "layer": "top",
+    "position": "top",
+    "margin-top": 10,
+    "margin-left": 13,
+    "margin-right": 23,
+    "margin-bottom": -10,
+    "spacing" : 0,
+    "reload_style_on_change": true,
+
+    "modules-left": [
+      "hyprland/workspaces#DP-3",
+    ],
+  }
+]

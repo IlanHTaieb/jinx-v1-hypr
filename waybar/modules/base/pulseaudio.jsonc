@@ -1,0 +1,11 @@
+{
+  "pulseaudio": {
+    "format": "{icon}",
+    "format-muted": "",
+    "format-icons": {
+      "default": ["", "", " "]
+    },
+    "on-click": "pavucontrol",
+    "tooltip-format": "{volume}%"
+  }
+}
